@@ -18,26 +18,26 @@
 
 ```go
 func search(nums []int, target int) int {
-	l := 0
-	r := len(nums) - 1
+    l := 0
+    r := len(nums) - 1
 
-	for l <= r {
-		m := (l + r) / 2
-		if (target > nums[m]) {
-			l = m+1
-		} else if (target < nums[m]) {
-			r = m-1
-		} else {
-			return m
-		}
-	}
-	return -1
+    for l <= r {
+        m := (l + r) / 2
+        if (target > nums[m]) {
+            l = m+1
+        } else if (target < nums[m]) {
+            r = m-1
+        } else {
+            return m
+        }
+    }
+    return -1
 }
 ```
 
 - 左闭右开
 
-```
+```go
 func search(nums []int, target int) int {
     l := 0
     r := len(nums) - 1
@@ -52,7 +52,7 @@ func search(nums []int, target int) int {
             return m
         }
     }
-	return -1
+    return -1
 }
 ```
 
@@ -96,15 +96,15 @@ func removeElement(nums []int, val int) int {
 
 ```go
 func removeElement(nums []int, val int) int {
-	size := len(nums) - 1
-	slow := 0
-	for i := 0; i < size; i++ {
-		if (nums[i] != val) {
-			nums[slow] = nums[i]
-			slow++
-		}
-	}
-	return slow
+    size := len(nums) - 1
+    slow := 0
+    for i := 0; i < size; i++ {
+        if (nums[i] != val) {
+            nums[slow] = nums[i]
+            slow++
+        }
+    }
+    return slow
 }
 ```
 
