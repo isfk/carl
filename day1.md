@@ -65,12 +65,13 @@ func search(nums []int, target int) int {
 ### 分析
 
 1. 暴力解法。第一想法是新数组，后来一想不对，看了下随想录，整体移动
-2. 双指针解法。双指针方法只需要一个循环
+2. 双指针解法。双指针方法只需要一个循环，快指针向后一个一个的进行遍历，慢指针是最终的长度
 
 ### 代码
 
+- 暴力解法
+
 ```go
-// 暴力解法
 func removeElement(nums []int, val int) int {
     size := len(nums) - 1
     for i := 0; i < len(nums); i++ {
@@ -84,8 +85,11 @@ func removeElement(nums []int, val int) int {
     }
     return size
 }
+```
 
-// 双指针解法
+- 双指针解法
+
+```go
 func removeElement(nums []int, val int) int {
 	size := len(nums) - 1
     slow := 0
