@@ -14,8 +14,9 @@
 
 ### 代码
 
+- 左闭右闭
+
 ```go
-// 左闭右闭
 func search(nums []int, target int) int {
     l := 0
     r := len(nums) - 1
@@ -32,7 +33,11 @@ func search(nums []int, target int) int {
     }
 	return -1
 }
-// 左必右开
+```
+
+- 左闭右开
+
+```
 func search(nums []int, target int) int {
     l := 0
     r := len(nums) - 1
