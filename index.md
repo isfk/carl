@@ -6,7 +6,7 @@
 
 - [x] [ day1 打卡 ](./day1.md)
 - [x] [ day2 打卡 ](./day2.md)
-- [ ] [ day3 打卡 ](./day3.md)
+- [x] [ day3 打卡 ](./day3.md)
 - [ ] [ day4 打卡 ](./day4.md)
 - [ ] [ day5 打卡 ](./day5.md)
 - [ ] [ day6 打卡 ](./day6.md)
