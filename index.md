@@ -8,7 +8,7 @@
 - [x] [ day2 打卡 ](./day2.md)
 - [x] [ day3 打卡 ](./day3.md)
 - [x] [ day4 补卡 ](./day4.md)
-- [ ] [ day5 打卡 ](./day5.md)
+- [x] [ day5 休息日 ](./day5.md)
 - [ ] [ day6 打卡 ](./day6.md)
 - [ ] [ day7 打卡 ](./day7.md)
 - [ ] [ day8 打卡 ](./day8.md)
