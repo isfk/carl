@@ -10,7 +10,7 @@
 - [x] [ day4 补卡 ](./day4.md)
 - [x] [ day5 休息日 ](./day5.md)
 - [x] [ day6 补卡 ](./day6.md)
-- [ ] [ day7 打卡 ](./day7.md)
+- [x] [ day7 补卡 ](./day7.md)
 - [ ] [ day8 打卡 ](./day8.md)
 - [ ] [ day9 打卡 ](./day9.md)
 - [ ] [ day10 打卡 ](./day10.md)
